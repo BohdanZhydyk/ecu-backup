@@ -70,14 +70,6 @@ http://localhost:3000
 
 ---
 
-## 📸 Screenshots
-
-| Home Page | Admin Panel |
-|:---------:|:-----------:|
-| ![Home](link_to_home_screenshot) | ![Admin](link_to_admin_screenshot) |
-
----
-
 ## 👨‍💻 Author
 
 **[bzDrive](https://github.com/BohdanZhydyk)**  
