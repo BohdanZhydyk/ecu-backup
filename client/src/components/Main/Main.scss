@@ -1,0 +1,106 @@
+
+.Main {
+  flex: 1;
+  width:calc(100% - 1rem);
+  padding: 0.5rem;
+  background: var(--bg-color);
+  color: var(--text-color);
+
+  .EcuBackupImageArea {
+    position:relative;
+    width:100%;
+    
+    .EcuBackupImage {
+      width:80%;
+    }
+
+    .BackupCounter {
+      position:absolute;
+      bottom:0.5rem;
+
+      .bold {
+        margin-left:0.5rem;
+      }
+    }
+  }
+
+  .SearchArea {
+    width:100%;
+
+    input {
+      width:40%;
+      padding:0.5rem;
+      margin:0.5rem 0;
+    }
+
+    .SearchButton {
+      padding:0.5rem;
+      margin:0.5rem 0;
+    }
+  }
+
+  .FilesArea {
+    width:100%;
+
+    .FileItem {
+      width:70%;
+
+      .FileItemCell {
+        padding:0.2rem;
+        margin:0.2rem 0;
+        background-color:#ccc;
+        color:#111;
+        border-radius:0.4rem;
+      }
+      .FileId {width:10%;}
+      .FileBrand {width:10%;}
+      .FileHW {width:20%;}
+      .FileECU {width:15%;}
+      .FileDesc {width:50%;}
+      .DownloadButton {
+        width:10%;
+        margin:0.2rem 0;
+      }
+    }
+  }
+
+  .Pagination {
+    width:100%;
+    margin:0.5rem 0;
+
+    .PageButton {
+      width:3rem;
+      margin:0.2rem;
+    }
+
+    .ActBtn {
+      background-color:#ccc;
+    }
+  }
+
+  .InfoArea {
+    width:100%;
+    line-height: 1.6;
+    font-size: 1rem;
+
+    .InfoSection {
+      width:calc(50% - 3rem - 2px);
+      padding:0.5rem 1rem;
+      margin:0.5rem;
+      border: 1px solid var(--border-color);
+
+      h2 {
+        width:calc(100%);
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+        font-size: 1.3rem;
+      }
+  
+      p {
+        width:100%;
+        margin: 0.5rem 0;
+        text-indent: 1.5rem;
+      }
+    }
+  }
+}

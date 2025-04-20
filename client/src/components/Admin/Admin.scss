@@ -1,0 +1,44 @@
+
+.Admin {
+  flex: 1;
+  width:calc(100% - 1rem);
+  padding: 0.5rem;
+  background: var(--bg-color);
+  color: var(--text-color);
+
+  .AdminPannelTop {
+    width:100%;
+  }
+
+  .LoginForm {
+    width: 20%;
+
+    .LoginInput {
+      width: calc(100% - 2rem);
+      margin-top: 1rem;
+      padding: 0.7rem 1rem;
+      box-sizing: border-box;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      background: var(--bg-color);
+      color: var(--text-color);
+      &:focus {
+        outline: none;
+        border-color: #f60;
+      }
+    }
+
+    .LoginButton {
+      width: calc(100% - 2rem);
+      margin-top: 1rem;
+      padding: 0.7rem 1rem;
+      box-sizing: border-box;
+      font-size: 1rem;
+      cursor: pointer;
+      border: none;
+      &:hover {
+        background: #171;
+      }
+    }
+  }
+}

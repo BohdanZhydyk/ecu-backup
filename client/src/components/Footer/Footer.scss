@@ -1,0 +1,16 @@
+
+.Footer {
+  width:calc(100% - 3rem);
+  background: var(--bg-color);
+  color: var(--text-color);
+  padding: 0.5rem 1rem;
+  margin:0 0.5rem;
+  border-top: 1px solid var(--border-color);
+
+  .AdminBtn {
+    margin:0 0.5rem;
+    &:hover {
+      color:#f60;
+    }
+  }
+}
